@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/abuba/My Drive (abubakor@iut-dhaka.edu)/School/IUT/3rd Semester/CSE 4302/Classworks/15.11.2023",
+      "program": "c:/Users/abuba/My Drive (abubakor@iut-dhaka.edu)/School/IUT/3rd Semester/CSE 4302/Classworks/15.11.2023/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

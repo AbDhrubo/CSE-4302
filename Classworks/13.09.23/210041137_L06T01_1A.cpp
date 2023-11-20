@@ -41,7 +41,7 @@ public:
         return result;
     }
 
-    bool operator>(const Counter& c2) const {
+    bool operator>(const Counter& c2) const { 
         return count > c2.count;
     }
 
@@ -77,9 +77,11 @@ public:
         return temp;
     }
 
-    Counter& operator++() {
+    Counter operator++() {
+        Counter temp(*this);
+        temp.increment();
         count += incrementStep;
-        return *this;
+        return temp;
     }
 };
 
